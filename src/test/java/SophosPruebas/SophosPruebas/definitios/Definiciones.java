@@ -19,7 +19,7 @@ public class Definiciones {
 	}
 	
 	@When("^realice la busqueda por (.*)")
-	public void realizarBusquedaParametro(String parametro ) {
+	public void realizarBusquedaParametro(String parametro) {
 		this.realizarBusqueda = new RealizarBusqueda();
 		this.realizarBusqueda.buscar(driver, parametro);
 	}
